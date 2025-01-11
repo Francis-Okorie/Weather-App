@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: black;
+    font-family: "Josefin Sans", serif;
+}
+
+.weather-content{
+    width: 300px;
+    margin: 100px auto 50px;
+    background: linear-gradient(130deg, #00feba, #5b548a);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.search-component {
+    display: flex;
+    justify-content: center;
+}
+
+.search-component-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.search-btn{
+    background-color: #fff;
+    border-radius: 50%;
+}
+.search-input {
+    background-color: #fff;
+    padding: .01rem .8rem;
+    border-radius: 1rem;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    padding-top: .7rem;
+    padding-bottom: .2rem;
+    border-radius: 1rem;
+    font-family: "Josefin Sans", serif;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: .6rem .6rem;
+}
+
+.weather-value,
+.weather-img{
+    display: flex;
+    justify-content: center;
+}
