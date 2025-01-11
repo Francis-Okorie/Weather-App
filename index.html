@@ -9,11 +9,21 @@
 <body>
     <div class="weather-container">
         <div class="weather-content">
-            <div class="search-input">
-                <input type="text" placeholder="Enter a City">
+            <div class="search-component">
+                <div class="search-component-content">
+                    <div class="search-input">
+                        <input type="text" class="input-search" placeholder="Enter a City" spellcheck="false">
+                    </div>
+                    <div class="search-btn-main">
+                        <button class="search-btn"><img src="images/search-heart.svg" alt=""></button>
+                    </div>
+                </div>
             </div>
-            <div class="search-btn">
-                <img src="images/search.png" alt="">
+
+            <div class="weather-img"></div>
+
+            <div class="weather-value">
+                <h1 class="temp"></h1>
             </div>
         </div>
     </div>
